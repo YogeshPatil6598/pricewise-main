@@ -51,7 +51,7 @@ export async function GET(request: Request) {
 
         // ======================== 2 CHECK EACH PRODUCT'S STATUS & SEND EMAIL ACCORDINGLY
         const emailNotifType = getEmailNotifType(
-          scrapedProduct,
+         currentProduct,
           currentProduct
         );
 
